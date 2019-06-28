@@ -4,41 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard">
+    tools:context=".Lomba">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp">
-        <fragment
-            android:id="@+id/Fragment1"
-            android:name="com.example.lbkomunitas.Fragment1"
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-        </LinearLayout>
-
-        <!--
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="top"
-            android:paddingBottom="8dp"
-            android:paddingTop="8dp" >
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
 
+            <fragment
+                android:id="@+id/Fragment1"
+                android:name="com.example.lbkomunitas.Fragment1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+            <!--
             <ImageView
                 android:id="@+id/mnLomba"
                 android:layout_width="0dp"
@@ -63,9 +55,29 @@
                 android:layout_weight="1"
                 android:alpha="0.5"
                 android:src="@drawable/news" />
+            -->
 
         </LinearLayout>
-    -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="top"
+            android:paddingTop="0dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Daftar Lomba"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
 
         <LinearLayout
             android:id="@+id/linBottom"
@@ -118,5 +130,8 @@
                 android:alpha="0.5"
                 android:src="@drawable/ic_person_black_24dp" />
         </LinearLayout>
+
+
     </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

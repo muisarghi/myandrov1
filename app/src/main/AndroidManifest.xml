@@ -9,8 +9,10 @@
         android:roundIcon="@drawable/parrot1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Lomba"></activity>
+        <activity android:name=".Profile" />
         <activity android:name=".Dashboard" />
+		<activity android:name=".Coba" />
         <activity android:name=".Daftar" />
         <activity android:name=".MainActivity">
             <intent-filter>
