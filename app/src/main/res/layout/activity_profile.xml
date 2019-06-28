@@ -271,16 +271,6 @@
 
             </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="0.1dp"
-                android:background="@color/colorBorderspro" ></View>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="0.1dp"
-                android:background="@color/colorBorderspro" ></View>
-
 
             <RelativeLayout
                 android:id="@+id/fragment_cont"

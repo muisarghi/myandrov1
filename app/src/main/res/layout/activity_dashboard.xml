@@ -12,6 +12,40 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" >
+
+            <ImageView
+                android:id="@+id/ivHome2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="0.5"
+                android:src="@drawable/trophy_24"/>
+
+            <ImageView
+                android:id="@+id/ivSearh2"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:alpha="0.5"
+                android:src="@drawable/discuss" />
+
+            <ImageView
+                android:id="@+id/ivSearh2"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:alpha="0.5"
+                android:src="@drawable/news" />
+
+        </LinearLayout>
+
+
     <LinearLayout
         android:id="@+id/linBottom"
         android:layout_width="match_parent"
