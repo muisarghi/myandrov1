@@ -17,6 +17,8 @@
         android:paddingBottom="8dp"
         android:paddingTop="8dp" >
 
+	
+
 
 
 
@@ -35,6 +37,7 @@
         android:layout_height="24dp"
         android:layout_weight="1"
         android:alpha="0.5"
+        android:onClick="mDiskusi"
         android:src="@drawable/discuss" />
 
     <ImageView
@@ -43,6 +46,7 @@
         android:layout_height="24dp"
         android:layout_weight="1"
         android:alpha="0.5"
+        android:onClick="mBerita"
         android:src="@drawable/news" />
 
     </LinearLayout>

@@ -79,6 +79,7 @@
         </LinearLayout>
 
 
+
         <LinearLayout
             android:id="@+id/linBottom"
             android:layout_width="match_parent"
@@ -89,7 +90,7 @@
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
-
+            <!--
             <ImageView
                 android:id="@+id/ivHome"
                 android:layout_width="0dp"
@@ -129,6 +130,14 @@
                 android:layout_weight="1"
                 android:alpha="0.5"
                 android:src="@drawable/ic_person_black_24dp" />
+                -->
+            <fragment
+                android:id="@+id/Fragment2"
+                android:name="com.example.lbkomunitas.Fragment2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
         </LinearLayout>
 
 

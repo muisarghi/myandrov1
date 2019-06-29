@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Lomba"></activity>
+        <activity android:name=".Diskusi"></activity>
+		<activity android:name=".Berita"></activity>
+		<activity android:name=".Pencarian"></activity>
         <activity android:name=".Profile" />
         <activity android:name=".Dashboard" />
 		<activity android:name=".Coba" />
