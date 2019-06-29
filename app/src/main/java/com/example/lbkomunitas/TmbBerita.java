@@ -10,12 +10,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class Profile extends AppCompatActivity {
+public class TmbBerita extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_tmbberita);
     }
 	
 	public void mLomba(View v)
@@ -50,7 +50,7 @@ public class Profile extends AppCompatActivity {
 	
 	public void mTmb(View ve)
     {
-        Intent ie = new Intent(this,TmbPost.class);
+        Intent ie = new Intent(this,TmbBerita.class);
         startActivity(ie);
     }
 	

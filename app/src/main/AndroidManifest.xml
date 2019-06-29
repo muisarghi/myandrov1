@@ -14,6 +14,9 @@
 		<activity android:name=".Berita"></activity>
 		<activity android:name=".Pencarian"></activity>
 		<activity android:name=".TmbPost"></activity>
+		<activity android:name=".TmbDiskusi"></activity>
+		<activity android:name=".TmbLomba"></activity>
+		<activity android:name=".TmbBerita"></activity>
 		<activity android:name=".Like"></activity>
         <activity android:name=".Profile" />
         <activity android:name=".Dashboard" />
