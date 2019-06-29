@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pencarian">
+    tools:context=".Like">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent">
 
-
+	
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Pencarian"
+                android:text="Like"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 android:textStyle="bold" />

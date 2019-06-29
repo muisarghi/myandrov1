@@ -44,6 +44,7 @@
                 android:layout_height="24dp"
                 android:layout_weight="1"
                 android:alpha="0.5"
+				android:onClick="mTmb"
                 android:src="@drawable/add" />
 
             <ImageView
@@ -52,6 +53,7 @@
                 android:layout_height="24dp"
                 android:layout_weight="1"
                 android:alpha="0.5"
+				android:onClick="mLike"
                 android:src="@drawable/fave" />
 
             <ImageView
@@ -60,6 +62,7 @@
                 android:layout_height="24dp"
                 android:layout_weight="1"
                 android:alpha="0.5"
+				android:onClick="mProfile"
                 android:src="@drawable/profile" />
 	</LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

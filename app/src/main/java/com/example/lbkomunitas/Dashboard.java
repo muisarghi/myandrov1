@@ -50,8 +50,24 @@ public class Dashboard extends AppCompatActivity {
         Intent id = new Intent(this,Pencarian.class);
         startActivity(id);
     }
-
-
+	
+	public void mTmb(View ve)
+    {
+        Intent ie = new Intent(this,TmbPost.class);
+        startActivity(ie);
+    }
+	
+	public void mLike(View vg)
+    {
+        Intent ig = new Intent(this,Like.class);
+        startActivity(ig);
+    }
+	
+	public void mProfile(View vh)
+    {
+        Intent ih = new Intent(this,Profile.class);
+        startActivity(ih);
+    }
 
 
 
