@@ -16,6 +16,16 @@ public class TmbDiskusi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tmbdiskusi);
+        Button btnSaveDiskusi= (Button) findViewById(R.id.btnTmbDiskusi);
+        btnSaveDiskusi.setOnClickListener(new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v){
+                Intent iz = new Intent(TmbDiskusi.this,Diskusi.class);
+                startActivity(iz);
+            }
+        });
     }
 	
 	public void mLomba(View v)

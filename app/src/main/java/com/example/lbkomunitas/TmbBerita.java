@@ -16,6 +16,16 @@ public class TmbBerita extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tmbberita);
+        Button btnSaveBerita = (Button) findViewById(R.id.btnTmbBerita);
+        btnSaveBerita.setOnClickListener(new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v){
+                Intent iz = new Intent(TmbBerita.this,Berita.class);
+                startActivity(iz);
+            }
+        });
     }
 	
 	public void mLomba(View v)

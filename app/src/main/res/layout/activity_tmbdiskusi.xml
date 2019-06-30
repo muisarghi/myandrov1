@@ -37,6 +37,59 @@
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="top"
+                android:text="Tema: " />
+
+            <EditText
+                android:id="@+id/editDiskusi"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType="text"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textView4b"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="top"
+                android:text="Diskusi: " />
+
+            <EditText
+                android:id="@+id/editIsiDiskusi"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:maxLines="8"
+                android:minLines="4"
+                android:scrollbars="vertical" />
+
+            <Button
+                android:id="@+id/btnTmbDiskusi"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:text="SIMPAN" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:gravity="top"
