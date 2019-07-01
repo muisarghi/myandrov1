@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
 
-                Intent a = new Intent(MainActivity.this,Daftar.class);
+                //Intent a = new Intent(MainActivity.this,Daftar.class);
+                Intent a = new Intent(MainActivity.this,Coba.class);
                 startActivity(a);
             }
         });
