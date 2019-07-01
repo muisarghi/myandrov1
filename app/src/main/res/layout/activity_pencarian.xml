@@ -54,6 +54,7 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+<<<<<<< HEAD
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="50dp"
@@ -149,6 +150,8 @@
         </LinearLayout>
 
 
+=======
+>>>>>>> bb557f311182ab149e26021ce7beee182b07897e
 
 
         <LinearLayout

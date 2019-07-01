@@ -34,7 +34,11 @@
             
 
         </LinearLayout>
+<<<<<<< HEAD
         <!--
+=======
+
+>>>>>>> bb557f311182ab149e26021ce7beee182b07897e
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,6 +57,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </LinearLayout>
+<<<<<<< HEAD
         -->
         <LinearLayout
             android:layout_width="100dp"
@@ -264,6 +269,8 @@
 
 
 
+=======
+>>>>>>> bb557f311182ab149e26021ce7beee182b07897e
 
 
 

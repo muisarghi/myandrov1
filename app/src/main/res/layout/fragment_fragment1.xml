@@ -15,8 +15,12 @@
         android:layout_height="wrap_content"
         android:gravity="top"
         android:paddingBottom="8dp"
+<<<<<<< HEAD
         android:paddingTop="8dp"
         android:background="@color/BlueGrey50">
+=======
+        android:paddingTop="8dp" >
+>>>>>>> bb557f311182ab149e26021ce7beee182b07897e
 
 	
 

@@ -65,10 +65,13 @@ public class Pencarian extends AppCompatActivity {
         Intent ih = new Intent(this,Profile.class);
         startActivity(ih);
     }
+<<<<<<< HEAD
 
     public void nCari(View vi)
     {
         Intent ii = new Intent(this,ProfileC.class);
         startActivity(ii);
     }
+=======
+>>>>>>> bb557f311182ab149e26021ce7beee182b07897e
 }

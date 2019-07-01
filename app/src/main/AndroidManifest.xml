@@ -17,11 +17,16 @@
 		<activity android:name=".TmbDiskusi"></activity>
 		<activity android:name=".TmbLomba"></activity>
 		<activity android:name=".TmbBerita"></activity>
+<<<<<<< HEAD
 		<activity android:name=".EditProfile"></activity>
 		<activity android:name=".Like"></activity>
         <activity android:name=".Profile" />
 		<activity android:name=".ProfileC" />
 		<activity android:name=".DetImage" />
+=======
+		<activity android:name=".Like"></activity>
+        <activity android:name=".Profile" />
+>>>>>>> bb557f311182ab149e26021ce7beee182b07897e
         <activity android:name=".Dashboard" />
 		<activity android:name=".Coba" />
         <activity android:name=".Daftar" />
