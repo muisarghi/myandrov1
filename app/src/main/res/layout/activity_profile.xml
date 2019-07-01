@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Profile">
+    tools:context="com.example.lbkomunitas.Profile">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -34,31 +34,8 @@
             
 
         </LinearLayout>
-<<<<<<< HEAD
-        <!--
-=======
 
->>>>>>> bb557f311182ab149e26021ce7beee182b07897e
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:gravity="top"
-            android:paddingTop="0dp"
-            android:paddingBottom="20dp">
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="320dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Profile"
-                android:textAlignment="center"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-        </LinearLayout>
-<<<<<<< HEAD
-        -->
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -267,10 +244,6 @@
 
         </LinearLayout>
 
-
-
-=======
->>>>>>> bb557f311182ab149e26021ce7beee182b07897e
 
 
 

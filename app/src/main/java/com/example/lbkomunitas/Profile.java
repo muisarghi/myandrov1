@@ -16,19 +16,7 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-<<<<<<< HEAD
-        Button btnEditProfile = (Button) findViewById(R.id.btnEditProfile);
-        btnEditProfile.setOnClickListener(new View.OnClickListener()
-        {
 
-            @Override
-            public void onClick(View v){
-                Intent iz = new Intent(Profile.this,EditProfile.class);
-                startActivity(iz);
-            }
-        });
-=======
->>>>>>> bb557f311182ab149e26021ce7beee182b07897e
     }
 	
 	public void mLomba(View v)
@@ -78,13 +66,11 @@ public class Profile extends AppCompatActivity {
         Intent ih = new Intent(this,Profile.class);
         startActivity(ih);
     }
-<<<<<<< HEAD
 
     public void mDetImage(View vj)
     {
         Intent ij = new Intent(this,DetImage.class);
         startActivity(ij);
     }
-=======
->>>>>>> bb557f311182ab149e26021ce7beee182b07897e
+
 }

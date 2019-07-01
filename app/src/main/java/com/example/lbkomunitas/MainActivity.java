@@ -36,12 +36,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
 
-<<<<<<< HEAD
+
                 //Intent a = new Intent(MainActivity.this,Daftar.class);
-                Intent a = new Intent(MainActivity.this,Coba.class);
-=======
                 Intent a = new Intent(MainActivity.this,Daftar.class);
->>>>>>> bb557f311182ab149e26021ce7beee182b07897e
+
                 startActivity(a);
             }
         });
