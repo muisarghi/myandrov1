@@ -69,6 +69,23 @@ public class Dashboard extends AppCompatActivity {
         startActivity(ih);
     }
 
+    public void mDetImage(View vj)
+    {
+        Intent ij = new Intent(this,DetImage.class);
+        startActivity(ij);
+    }
+
+    public void mBack(View vk)
+    {
+        Intent ik = new Intent(this,Dashboard.class);
+        startActivity(ik);
+    }
+
+    public void nCari(View vl)
+    {
+        Intent il = new Intent(this,ProfileC.class);
+        startActivity(il);
+    }
 
 
 }

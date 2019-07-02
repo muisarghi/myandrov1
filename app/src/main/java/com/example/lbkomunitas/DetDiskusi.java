@@ -9,23 +9,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+//import android.view.View.OnClickListener;
 
-public class DetImage extends AppCompatActivity {
+public class DetDiskusi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detimage);
-        Button btnAddKomentar = (Button) findViewById(R.id.btnAddKomentar);
-        btnAddKomentar.setOnClickListener(new View.OnClickListener()
-        {
-
-            @Override
-            public void onClick(View v){
-                Intent iz = new Intent(DetImage.this,DetImage.class);
-                startActivity(iz);
-            }
-        });
+        setContentView(R.layout.activity_detdiskusi);
     }
 	
 	public void mLomba(View v)
@@ -60,7 +51,7 @@ public class DetImage extends AppCompatActivity {
 	
 	public void mTmb(View ve)
     {
-        Intent ie = new Intent(this,TmbPost.class);
+        Intent ie = new Intent(this,TmbDiskusi.class);
         startActivity(ie);
     }
 	
@@ -76,15 +67,13 @@ public class DetImage extends AppCompatActivity {
         startActivity(ih);
     }
 
-    public void mBack(View vj)
+    public void nCari(View vj)
     {
-        Intent ij = new Intent(this,DetImage.class);
+        Intent ij = new Intent(this,ProfileC.class);
         startActivity(ij);
     }
 
-    public void nCari(View vk)
-    {
-        Intent ik = new Intent(this,ProfileC.class);
-        startActivity(ik);
-    }
+   
+
+
 }

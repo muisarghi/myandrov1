@@ -65,4 +65,10 @@ public class Like extends AppCompatActivity {
         Intent ih = new Intent(this,Profile.class);
         startActivity(ih);
     }
+
+    public void nCari(View vj)
+    {
+        Intent ij = new Intent(this,ProfileC.class);
+        startActivity(ij);
+    }
 }

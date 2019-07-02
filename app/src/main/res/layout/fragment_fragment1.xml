@@ -24,6 +24,7 @@
             android:layout_height="24dp"
             android:layout_weight="1"
             android:alpha="0.5"
+
             android:src="@drawable/parrot1"/>
 
     <ImageView

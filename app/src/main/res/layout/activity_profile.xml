@@ -180,7 +180,10 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:onClick="mDetImage"
-                app:srcCompat="@drawable/lb1" />
+                app:srcCompat="@drawable/lb1"
+                android:padding="1dp"
+                android:background="@drawable/background"
+                />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -189,7 +192,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:onClick="mDetImage"
-                app:srcCompat="@drawable/lb2" />
+                app:srcCompat="@drawable/lb2"
+                android:padding="1dp"
+                android:background="@drawable/background"/>
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -198,7 +203,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:onClick="mDetImage"
-                app:srcCompat="@drawable/lb1" />
+                app:srcCompat="@drawable/lb1"
+                android:padding="1dp"
+                android:background="@drawable/background"/>
 
 
 
@@ -222,7 +229,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:onClick="mDetImage"
-                app:srcCompat="@drawable/lb1" />
+                app:srcCompat="@drawable/lb1"
+                android:padding="1dp"
+                android:background="@drawable/background"/>
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -231,7 +240,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:onClick="mDetImage"
-                app:srcCompat="@drawable/lb2" />
+                app:srcCompat="@drawable/lb2"
+                android:padding="1dp"
+                android:background="@drawable/background"/>
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -240,7 +251,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:onClick="mDetImage"
-                app:srcCompat="@drawable/lb1" />
+                app:srcCompat="@drawable/lb1"
+                android:padding="1dp"
+                android:background="@drawable/background"/>
 
         </LinearLayout>
 

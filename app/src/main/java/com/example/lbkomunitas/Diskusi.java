@@ -67,5 +67,11 @@ public class Diskusi extends AppCompatActivity {
         startActivity(ih);
     }
 
+    public void nDetDiskusi(View vj)
+    {
+        Intent ij = new Intent(this,DetDiskusi.class);
+        startActivity(ij);
+    }
+
 
 }
